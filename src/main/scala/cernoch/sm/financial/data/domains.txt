@@ -1,0 +1,51 @@
+@account_id:num
+@card_id:num
+@client_id:num
+@district_id:num
+@disp_id:num
+@loan_id:num
+@order_id:num
+@trans_id:num
+
+date:num
+amount:dec
+duration:cat ["12", "24", "36", "48", "60"]
+payments:dec
+status:cat [A, B, C, D]
+
+frequency:cat ["POPLATEK TYDNE", "POPLATEK MESICNE", "POPLATEK PO OBRATU"]
+date:num
+district_name:cat
+region:cat [Prague, central_Bohemia, east_Bohemia, north_Bohemia, north_Moravia, south_Bohemia, south_Moravia, west_Bohemia]
+inhabitants:num
+dwellings:num
+hamlets:num
+villages:num
+towns:num
+cities:num
+urbanisation:dec
+avg_salary:num
+unemployment95:dec
+unemployment96:dec
+enterpreneurs:num
+crimes95:num
+crimes96:num
+
+card_type:cat [classic, gold, junior]
+issued:num
+
+birth_number:num
+
+disp_type:cat [DISPONENT, OWNER]
+
+bank:cat [EF, YZ, MN, WX, IJ, ST, OP, KL, AB, CD, QR, UV, GH, ""]
+account:num
+amount:dec
+k_symbol:cat [DUCHOD, "SANKC._UROK", UROK, POJISTNE, UVER, SIPO, SLUZBY, LEASING, " ", ""]
+
+
+date:num
+trans_type:cat [PRIJEM, VYDAJ, VYBER]
+operation:cat [VKLAD, VYBER, PREVOD_NA_UCET, PREVOD_Z_UCTU, VYBER_KARTOU]
+
+balance:dec

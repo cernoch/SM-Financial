@@ -1,0 +1,8 @@
+loan(-loan_id, -account_id, -date, -amount, -duration, -payments, -status)
+account(+account_id, -district_id, -frequency, -date)
+district(+district_id, -district_name, -region, -inhabitants, -dwellings, -hamlets, -villages, -towns, -cities, -urbanisation, -avg_salary, -unemployment95, -unemployment96, -enterpreneurs, -crimes95, -crimes96)
+card(-card_id, +disp_id, -card_type, -issued)
+client(+client_id, -birth_number, -district_id)
+disp(-disp_id, -client_id, +account_id, -disp_type)
+order(-order_id, +account_id, -bank, -account, -amount, -k_symbol)
+trans(-trans_id, +account_id, -date, -trans_type, -operation, -amount, -balance, -k_symbol, -bank, -account)
